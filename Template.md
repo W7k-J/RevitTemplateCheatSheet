@@ -22,10 +22,9 @@ L - Landscape
 4. Transfer Project standards from other projects
 
 
-
 ## First Choices  
 
-Flexible vs Total  
+Flexibility vs Control  
 
 ## Units  
 
@@ -44,11 +43,8 @@ Recommended parameters:
 ## Line Thicknesses  
 ### Do you really want to change it?  
 ### Problems  
-
 ## Object Styles  
 ### Understanding how it works
-### Do I need to change anything here?
-
 ## Line styles  
 Template name convention.  
 What lines it is nice to have:  
@@ -56,10 +52,15 @@ What lines it is nice to have:
 ### Make it in Revit
 ### Importing from AutoCAD
 
+## Do I need to change anything here?
+### AEC UK BIM protocol
+
 ## Libraries
 ### Families  
 #### Necessary: 
 * Title blocks
+  * Sheets
+  * Issue/Project Page
 #### Nice to have: 
 * Materials
 * Detail Components
@@ -91,7 +92,9 @@ What lines it is nice to have:
 Tick Mark:  
 Units:   Less precise  
 #### Regions
-Import from CAD  "acad.pat"  
+Import from CAD  
+    * "acad.pat"  
+    * Open new project import cad and copy it  
 Download from Internet  
 pyRevit  
 Code pat files:  
