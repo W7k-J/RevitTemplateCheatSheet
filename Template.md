@@ -9,13 +9,12 @@ S - Structure
 L - Landscape  
 
 ## Creating a new template  
+  
 1. Buy it! 
 2. From an existing project  
-  
 ![Template from existing file](/Resources/TemplateFromFile.jpg)  
   
 3. From default revit template  
-  
 ![Template from default revit template](/Resources/TemplateNewProjectI.jpg)  
 ![Template from default revit template part 2](/Resources/TemplateNewProjectII.jpg)  
   
@@ -23,17 +22,69 @@ L - Landscape
 
 
 ## First Choices  
-
+  
+Project Stage    
+  
+Repetition vs Uniqueness  
 Flexibility vs Control  
+Newbies vs Experts  
 
 ## Units  
-
-Recommended unit setup for metric system:
+  
+Example of recommended unit setup for Length in metric system:
+  
+![Units](/Resources/Units.jpg)  
+  
+  
+#### Setting units:  
+4. Specific to the your country!  
+5. Always rounding set to 3 decimal places. It forces people to be more precise while modelling.  
+6. Set units. Personal choice. Feel free to show them.  
+7. Hides trailing zeros. Works very well with point 5. Always on.  
+8. Something worth using. Which one do you prefer? 1000000 vs 1 000 000.  
+9. Specific to your country so choose it based on the local custom.  
 
 ## Project Browser
+  
+![Basic Project Browser](/Resources/ProjectBrowserBasic.jpg)  
+
 ### Views
+Keep it simple and don't go for anything more than 2 levels deep.  
+BTW remember that changing it later changes it for everyone in the project!  
+
+#### How to change it?  
+![How to change it?](/Resources/ProjectBrowserHowToChange.jpg)  
+
+1. Right click.  
+2. Got To Browser Organization.  
+
+![Browser Organization](/Resources/ProjectBrowserViewSettings.jpg)  
+
+3. Create a new organization scheme.  
+4. Name it smartly!  
+5. Click Edit.  
+6. You can use this part to hide some views in your project browser. Objectively a waste of time - Why would you do this?  
+7. Here we are organizing our structure. Use group by: Type  
+8. Here you have more choices: Use group by: Family or by specific project parameter for views.  
+9. Sort by View Name. Ascending.  
+
+Some people use 3rd level: Group by Scale. Im not an enemy of it but not a big fan either.  
+
+How does it works:
+
+![View Group by:](/Resources/ProjectBrowserViewGrouping.jpg)
+  
+1. View Type. Make it generic like WIP, GA and avoid using things like WIP Plans.
+2. Family : Floor Plan, Section, Elevation, RCP etc. 
+
+
 ### Sheets
 ### Collections 2025
+
+### Some rules
+Make sure to let your team know that BIM team during auditing/cleanup will delete:
+1. Unnamed views so things like "Section 15" might disappear!  
+2. Unassigned views with "?" will suffer a similar fate.  
 
 ## Parameters
 ### Project  
@@ -99,7 +150,6 @@ Download from Internet
 pyRevit  
 Code pat files:  
 https://help.autodesk.com/view/OARX/2025/ENU/?guid=GUID-A6F2E6FF-1717-44B6-A476-0CA817ADD77E  
-
 
 #### Tags
 Arrows:  
