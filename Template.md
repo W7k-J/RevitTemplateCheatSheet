@@ -79,7 +79,23 @@ How does it works:
 
 
 ### Sheets
-### Collections 2025
+  
+Sometimes not super obvious how to do it. Ideally you want to use you sheet number to divide your sheets into the series of drawings.  
+
+![Sheet Group by:](/Resources/ProjectBrowserSheets.jpg)
+
+For example here:
+
+1. Group by: Sheet Number  
+2. Choose leading characters..
+3. Number of leading characters  
+
+
+### Collections Revit 2025
+
+![Collections](/Resources/Collections.jpg)
+  
+I haven't seen anyone using it.  
 
 ### Some rules
 Make sure to let your team know that BIM team during auditing/cleanup will delete:
@@ -89,12 +105,18 @@ Make sure to let your team know that BIM team during auditing/cleanup will delet
 ## Parameters
 ### Project  
 ### Shared  
-Recommended parameters:
-
 ## Line Thicknesses  
-### Do you really want to change it?  
-### Problems  
+### Default Line Thicknesses
+![Line Thicknesses - Model](/Resources/LineTDefaultModel.jpg)  
+![Line Thicknesses - Perspective](/Resources/LineTDefaultPerpective.png)  
+![Line Thicknesses - Annotation](/Resources/LineTDefaultAnnotation.jpg)  
+### Do you really want to change it? Problems and personal choice?  
+1. Different Setting in Linked Models (You will have anyway as everyone is changing these!)  
+![Same line different models]( )
+2. Changing line thicknesses in Scale is over complicating the everything! Default 1:100 looks good.  
+3. Make a printout for your team with your lines.  
 ## Object Styles  
+
 ### Understanding how it works
 ## Line styles  
 Template name convention.  
