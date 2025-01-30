@@ -1,6 +1,33 @@
 # Revit Template
 Author: Julian Wandzilak  
+find me at W7k.pl
 License: CC BY-SA  
+# About me  
+
+![JW](https://w7k.pl/images/JWLarge.png)  
+  
+My webpage:  
+https://w7k.pl/  
+
+![Drafter Placement](https://w7k.pl/images/Tools/Drafter/drafter_1.jpg)  
+  
+More about my tools:  
+https://apps.autodesk.com/en/Publisher/PublisherHomepage?ID=8UP2BABQLV9LA6YG
+
+
+
+## Why templates? First Choices  
+  
+What kind of projects?  
+What is the current project stage?  
+How much time do you have?  
+How much experience do you have in your current job?  
+  
+Write the answer down! Go to the project leaders for clarifications!  
+  
+Repetition vs Uniqueness  
+Flexibility vs Control  
+Newbies vs Experts  
 
 #### CODE:
 A - Architecture  
@@ -19,15 +46,6 @@ L - Landscape
 ![Template from default revit template part 2](/Resources/TemplateNewProjectII.jpg)  
   
 4. Transfer Project standards from other projects
-
-
-## First Choices  
-  
-Project Stage    
-  
-Repetition vs Uniqueness  
-Flexibility vs Control  
-Newbies vs Experts  
 
 ## Units  
   
@@ -74,12 +92,12 @@ How does it works:
 
 ![View Group by:](/Resources/ProjectBrowserViewGrouping.jpg)
   
-1. View Type. Make it generic like WIP, GA and avoid using things like WIP Plans.
+1. View Type. Make it generic like WIP, GA and avoid using things like WIP Plans. Remember to create the whole set (for plans, elevations and details) of these views in your template file! 
 2. Family : Floor Plan, Section, Elevation, RCP etc. 
-
 
 ### Sheets
   
+How many sheets do you plan to have?  
 Sometimes not super obvious how to do it. Ideally you want to use you sheet number to divide your sheets into the series of drawings.  
 
 ![Sheet Group by:](/Resources/ProjectBrowserSheets.jpg)
@@ -105,28 +123,117 @@ Make sure to let your team know that BIM team during auditing/cleanup will delet
 ## Parameters
 ### Project  
 ### Shared  
+
 ## Line Thicknesses  
 ### Default Line Thicknesses
 ![Line Thicknesses - Model](/Resources/LineTDefaultModel.jpg)  
 ![Line Thicknesses - Perspective](/Resources/LineTDefaultPerpective.png)  
 ![Line Thicknesses - Annotation](/Resources/LineTDefaultAnnotation.jpg)  
 ### Do you really want to change it? Problems and personal choice?  
-1. Different Setting in Linked Models (You will have anyway as everyone is changing these!)  
-![Same line different models]( )
-2. Changing line thicknesses in Scale is over complicating the everything! Default 1:100 looks good.  
-3. Make a printout for your team with your lines.  
+1. Different Setting in Linked Models (You will have to do it anyway as everyone is changing these!)  
+![Same line different models](/Resources/ThicknessProblem.jpg)
+2. Keep it simple!  
+3. Changing Thicknesses in Scale is complicated so try to keep it simple! Default 1:100 everywhere is nice.  
+![Lines](/Resources/IdealLineSet.jpg)
+4. Maybe 2 steps for drawings below 1:50 and above.  
+5. Make a printout for your team with your lines.  
 ## Object Styles  
-
+remember to change them especially after changing lines Thicknesses.  
 ### Understanding how it works
 ## Line styles  
-Template name convention.  
-What lines it is nice to have:  
+Naming convention.Color vs Thicknesses vs Line Pattern!  
+Please stop creating line types with names which convey information!  
+![Lines Styles](/Resources/LinesNew.jpg)  
+
+How many lines? Depends on your settings.
+
+Colours:  
+* Black  
+* Red  
+* Green  
+* Blue  
+* Grey  
+* Dark Grey  
+* Cyan  
+* Magenta  
+
+Line Patterns:
+* Solid  
+* Dash 1.5 mm  
+* Dash 3.0 mm  
+* Dash Dot
+* Dot
+
+Good examples of names:  
+1_Black_Solid  
+4_Dash_Red  
+Solid_5_Black  
+
 ## Line patterns
 ### Make it in Revit
+Make sure the line is longer than 1/32" (about 0.78mm).  
 ### Importing from AutoCAD
+Don't do it.  
 
 ## Do I need to change anything here?
 ### AEC UK BIM protocol
+Worth checking:
+https://aecuk.wordpress.com/documents/
+
+## View Templates
+### What is a View template 
+View Template is a specific view saved in your file.  
+View Template has the same settings as View has!  
+  
+![View template vs View settings](/Resources/ViewTemplate.jpg)  
+
+View Templates has type. It doesn't mean you can't use plan template for section.  
+Just make sure to later recreate a template as a new section template.  
+
+### Creating view templates  
+
+![Creating view templates](/Resources/ViewTemplateCreate.jpg)  
+
+### Assigning view templates 
+
+![Assigning view templates](/Resources/ViewTemplateAssign.jpg)  
+
+1. I haven't seen anyone doing it this way :)  
+2. Normal way of doing it.  
+
+### Controlling view templates:
+Template name convention - Figure something!  
+
+Good Examples:  
+* WIP Plans 1 200  
+* GA Sections 1 50 Detailed  
+* GA_Plans_100  
+  
+  
+  
+To control disciples you need to create a view with specific disciple.  
+Remember you can control these things globally with subcategories!  
+
+#### View Properties worth to unclick  
+Scale  
+View Range  
+
+Personal: Model Display  
+
+#### Filters  
+
+![Levels and Grids](/Resources/LevelsAndGrids.jpg)  
+  
+* Levels & Grids  
+* RC  
+* Hide views not of specific type  
+* Fire Rating (A)  
+* If you work with the same Architect, MEP or SE, create more filters!  
+
+#### Linked Revit Files  
+* File vs Instance
+
+Better to use filters than to override too much.  
 
 ## Libraries
 ### Families  
@@ -170,14 +277,13 @@ Import from CAD
     * Open new project import cad and copy it  
 Download from Internet  
 pyRevit  
-Code pat files:  
+Code your pat files:  
 https://help.autodesk.com/view/OARX/2025/ENU/?guid=GUID-A6F2E6FF-1717-44B6-A476-0CA817ADD77E  
 
 #### Tags
 Arrows:  
 Parameters:  
 #### View Symbols (Elevations, Sections, callouts)
-
 
 ## Views
 ### Preloading views 
@@ -191,24 +297,5 @@ Loaded sheets vs good sheet manual so people can create their own drawings
 ### Preloaded sheets - How to do it?
 ### Full set 
 
-## View Templates
-### What is a View template 
-### Creating view templates 
-### Assigning view templates 
-
-### Controlling view templates:
-Template name convention  
-#### View Properties
-Scale
-View Range
-
-#### Filters 
-#### Linked files
-##### Revit
-* File vs Instance
-
-##### CAD
-
 ## MAKE A REVIT GUIDE!  
-
 ## MAKE A PROJECT GUIDE!  
