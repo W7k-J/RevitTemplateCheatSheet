@@ -39,19 +39,19 @@ L - Landscape
   
 1. Buy it! 
 2. From an existing project  
-![Template from existing file](/Resources/TemplateFromFile.jpg)  
+![Template from existing file](./Resources/TemplateFromFile.jpg)  
   
-3. From default revit template  
-![Template from default revit template](/Resources/TemplateNewProjectI.jpg)  
-![Template from default revit template part 2](/Resources/TemplateNewProjectII.jpg)  
+1. From default revit template  
+![Template from default revit template](./Resources/TemplateNewProjectI.jpg)  
+![Template from default revit template part 2](./Resources/TemplateNewProjectII.jpg)  
   
-4. Transfer Project standards from other projects
+1. Transfer Project standards from other projects
 
 ## Units  
   
 Example of recommended unit setup for Length in metric system:
   
-![Units](/Resources/Units.jpg)  
+![Units](./Resources/Units.jpg)  
   
   
 #### Setting units:  
@@ -64,19 +64,19 @@ Example of recommended unit setup for Length in metric system:
 
 ## Project Browser
   
-![Basic Project Browser](/Resources/ProjectBrowserBasic.jpg)  
+![Basic Project Browser](./Resources/ProjectBrowserBasic.jpg)  
 
 ### Views
 Keep it simple and don't go for anything more than 2 levels deep.  
 BTW remember that changing it later changes it for everyone in the project!  
 
 #### How to change it?  
-![How to change it?](/Resources/ProjectBrowserHowToChange.jpg)  
+![How to change it?](./Resources/ProjectBrowserHowToChange.jpg)  
 
 1. Right click.  
 2. Got To Browser Organization.  
 
-![Browser Organization](/Resources/ProjectBrowserViewSettings.jpg)  
+![Browser Organization](./Resources/ProjectBrowserViewSettings.jpg)  
 
 3. Create a new organization scheme.  
 4. Name it smartly!  
@@ -90,7 +90,7 @@ Some people use 3rd level: Group by Scale. Im not an enemy of it but not a big f
 
 How does it works:
 
-![View Group by:](/Resources/ProjectBrowserViewGrouping.jpg)
+![View Group by:](./Resources/ProjectBrowserViewGrouping.jpg)
   
 1. View Type. Make it generic like WIP, GA and avoid using things like WIP Plans. Remember to create the whole set (for plans, elevations and details) of these views in your template file! 
 2. Family : Floor Plan, Section, Elevation, RCP etc. 
@@ -100,7 +100,7 @@ How does it works:
 How many sheets do you plan to have?  
 Sometimes not super obvious how to do it. Ideally you want to use you sheet number to divide your sheets into the series of drawings.  
 
-![Sheet Group by:](/Resources/ProjectBrowserSheets.jpg)
+![Sheet Group by:](./Resources/ProjectBrowserSheets.jpg)
 
 For example here:
 
@@ -111,7 +111,7 @@ For example here:
 
 ### Collections Revit 2025
 
-![Collections](/Resources/Collections.jpg)
+![Collections](./Resources/Collections.jpg)
   
 I haven't seen anyone using it.  
 
@@ -126,15 +126,15 @@ Make sure to let your team know that BIM team during auditing/cleanup will delet
 
 ## Line Thicknesses  
 ### Default Line Thicknesses
-![Line Thicknesses - Model](/Resources/LineTDefaultModel.jpg)  
-![Line Thicknesses - Perspective](/Resources/LineTDefaultPerpective.png)  
-![Line Thicknesses - Annotation](/Resources/LineTDefaultAnnotation.jpg)  
+![Line Thicknesses - Model](./Resources/LineTDefaultModel.jpg)  
+![Line Thicknesses - Perspective](./Resources/LineTDefaultPerpective.png)  
+![Line Thicknesses - Annotation](./Resources/LineTDefaultAnnotation.jpg)  
 ### Do you really want to change it? Problems and personal choice?  
 1. Different Setting in Linked Models (You will have to do it anyway as everyone is changing these!)  
-![Same line different models](/Resources/ThicknessProblem.jpg)
+![Same line different models](./Resources/ThicknessProblem.jpg)
 2. Keep it simple!  
 3. Changing Thicknesses in Scale is complicated so try to keep it simple! Default 1:100 everywhere is nice.  
-![Lines](/Resources/IdealLineSet.jpg)
+![Lines](./Resources/IdealLineSet.jpg)
 4. Maybe 2 steps for drawings below 1:50 and above.  
 5. Make a printout for your team with your lines.  
 ## Object Styles  
@@ -143,7 +143,7 @@ remember to change them especially after changing lines Thicknesses.
 ## Line styles  
 Naming convention.Color vs Thicknesses vs Line Pattern!  
 Please stop creating line types with names which convey information!  
-![Lines Styles](/Resources/LinesNew.jpg)  
+![Lines Styles](./Resources/LinesNew.jpg)  
 
 How many lines? Depends on your settings.
 
@@ -185,18 +185,18 @@ https://aecuk.wordpress.com/documents/
 View Template is a specific view saved in your file.  
 View Template has the same settings as View has!  
   
-![View template vs View settings](/Resources/ViewTemplate.jpg)  
+![View template vs View settings](./Resources/ViewTemplate.jpg)  
 
 View Templates has type. It doesn't mean you can't use plan template for section.  
 Just make sure to later recreate a template as a new section template.  
 
 ### Creating view templates  
 
-![Creating view templates](/Resources/ViewTemplateCreate.jpg)  
+![Creating view templates](./Resources/ViewTemplateCreate.jpg)  
 
 ### Assigning view templates 
 
-![Assigning view templates](/Resources/ViewTemplateAssign.jpg)  
+![Assigning view templates](./Resources/ViewTemplateAssign.jpg)  
 
 1. I haven't seen anyone doing it this way :)  
 2. Normal way of doing it.  
@@ -222,7 +222,7 @@ Personal: Model Display
 
 #### Filters  
 
-![Levels and Grids](/Resources/LevelsAndGrids.jpg)  
+![Levels and Grids](./Resources/LevelsAndGrids.jpg)  
   
 * Levels & Grids  
 * RC  
